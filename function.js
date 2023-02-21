@@ -1,17 +1,4 @@
-/* function alarme () {
-    let birthday = parseInt(document.getElementById("birthday").value);
-    let day = parseInt(document.getElementById("day").value);
-    let daysLeft = day - birthday;
-    let timeLeft = daysLeft / (1000*60*60*24);
 
-    if(daysLeft > 0){
-        alert(`Falta, ${daysLeft} dias.`)
-    } else {
-        alert("feliz aniversario.")
-    }
-    console.log(timeLeft);
-    console.log(daysLeft);
-} */
 function alarme () {
 let birthday = parseInt(document.getElementById("birthday").value);
 let day = parseInt(document.getElementById("day").value);
