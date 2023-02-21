@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">/
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
-    <div id="corpo">
-    <h1>Quantos dias falta para o aniversaio</h1>
-    <input type="text" id="birthday" required> Dia, mês de aniversario com ano atual.
-    <input type="text" id="day" required>Dia, mês e ano atual.
-    <button onclick="alarme()">Ativar alarme</button>
-</div>
-   <script src="function.js"></script> 
-</body>
+  </head>
+  <body>
+<div>
+      <h1>Quantos dias falta para o aniversaio</h1>
+      
+      <input type="text" id="birthday" required placeholder="__/__/__" />
+      <label for="birthday">Dia, mês de aniversario com ano atual.</label>
+      <input type="text" id="day" required placeholder="__/__/__" />
+      <label for="day">Dia, mês e ano atual.</label><br>
+      <button onclick="alarme()">Ativar alarme</button>
+    </div>
+    <script src="function.js"></script>
+  </body>
 </html>
